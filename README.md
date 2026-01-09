@@ -87,19 +87,22 @@ try {
 
 ## Example Response
 ```json
+
 {
-  "data": {
-    "type": "api_job_result",
-    "id": "job-id-here",
-    "attributes": {
-      "status": "success",
-      "type": "content_processing",
-      "result": {
-        "content": "Processed result content here..."
-      }
+    "data": {
+        "type": "api_job_result",
+        "id": "7f829234-0e87-4796-a820-4f9fe5de5aab",
+        "attributes": {
+            "status": "success",
+            "type": "ecommerce_review_sentiment",
+            "result": {
+                "score": "85",
+                "opinion": "NEGATIVE"
+            }
+        }
     }
-  }
 }
+
 ```
 ---
 
